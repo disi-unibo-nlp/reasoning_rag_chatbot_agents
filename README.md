@@ -179,52 +179,6 @@ Copia e incolla questa configurazione:
 }
 ```
 
-```json
-{
-  "provider": "autogen_ext.models.openai.OpenAIChatCompletionClient",
-  "component_type": "model",
-  "version": 1,
-  "component_version": 1,
-  "description": "Local Ollama Gemma3 model client per generazione avanzata.",
-  "label": "Gemma3 Model",
-  "config": {
-    "model": "gemma3:4b",
-    "api_key": "ollama",
-    "model_info": {
-      "vision": false,
-      "structured_output": true,
-      "function_calling": true,
-      "json_output": false,
-      "family": "unknown"
-    },
-    "base_url": "http://host.docker.internal:11434/v1"
-  }
-}
-```
-
-```json
-{
-  "provider": "autogen_ext.models.openai.OpenAIChatCompletionClient",
-  "component_type": "model",
-  "version": 1,
-  "component_version": 1,
-  "description": "Local Ollama deepseek-r1 model client per generazione avanzata.",
-  "label": "DeepSeek-R1 Model",
-  "config": {
-    "model": "deepseek-r1:1.5b",
-    "api_key": "ollama",
-    "model_info": {
-      "vision": false,
-      "structured_output": true,
-      "function_calling": true,
-      "json_output": false,
-      "family": "unknown"
-    },
-    "base_url": "http://host.docker.internal:11434/v1"
-  }
-}
-```
-
 
 ![Ollama Model Creation](assets/agent_model_creation.png)
 *Figura: Interfaccia di configurazione del modello Ollama negli agenti - mostra come inserire la configurazione JSON*
