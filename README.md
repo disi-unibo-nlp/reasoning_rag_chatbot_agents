@@ -213,7 +213,7 @@ Dopo aver creato i tool, configura gli agenti per utilizzare i modelli Ollama pr
 
 Ecco come appare una pipeline completa di ricerca approfondita:
 
-![DeepResearch LAM Pipeline](assets/deepResearch_Agent.png)
+![DeepResearch LAM Pipeline](assets/lam_google_team.png)
 *Figura: Pipeline completa del DeepResearch LAM Agent - mostra la configurazione multi-agente per ricerca approfondita*
 
 ---
@@ -267,6 +267,16 @@ La pipeline Google LAM utilizza una struttura a più agenti specializzati:
 
 Per inizializzare il pool di agenti:
 Team Builder → From Gallery → "Deep Research Team" (copy button - 'use as template')
+
+
+## Example
+Question: `How tall is the Eiffel Tower?`
+
+Let's  analyze the solving workflow of 
+![DeepResearch Solving Workflow](assets/lam_google_workflow_eiffel.pnf)
+
+Here's a snippet of the generated answer.
+![DeepResearch LAM Answer](assets/answer_eiffel.png)
 
 ---
 
