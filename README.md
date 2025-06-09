@@ -57,7 +57,7 @@ Per abilitare le funzionalità di ricerca web, dovrai configurare l'API di Googl
 #### Passo 4: Creazione delle Credenziali
 - 🔑 Vai su "API e servizi" → "Credenziali"
 - ➕ Clicca "Crea credenziali" → "Chiave API"
-- 💾 **IMPORTANTE:** Copia e salva la chiave generata in un posto sicuro
+- 💾 Copia e salva la chiave generata
 
 ### Parte 2: 🔍 Ottenere il Google CSE ID
 
@@ -104,7 +104,12 @@ docker run -d \
        autogenstudio ui --host 0.0.0.0 --port 8080 --appdir /app/my_app
 ```
 
-**⚠️ IMPORTANTE:** Sostituisci `LA_TUA_API_KEY_QUI` e `IL_TUO_CSE_ID_QUI` con le credenziali ottenute nei passaggi precedenti.
+For Windows
+```bash 
+docker run -d --name autogen -w /app -v PROJECT_DIR:/app -e GOOGLE_API_KEY="LA_TUA_API_KEY_QUI" -e GOOGLE_CSE_ID="IL_TUO_CSE_ID_QUI" -p 40000:8080 autogen_image:latest autogenstudio ui --host 0.0.0.0 --port 8080 --appdir /app/my_app
+```
+
+> Sostituisci `LA_TUA_API_KEY_QUI` e `IL_TUO_CSE_ID_QUI` con le credenziali ottenute nei passaggi precedenti.
 
 ### 🌐 Accesso all'Interfaccia Web
 
