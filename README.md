@@ -154,7 +154,7 @@ Copia e incolla questa configurazione:
 }
 ```
 
-### 3. 🦙 Configurazione Modello Llama3.2 (Opzionale)
+### 3. 🦙 Configurazione Ulteriori LLM (Opzionale)
 
 ```json
 {
@@ -166,6 +166,52 @@ Copia e incolla questa configurazione:
   "label": "Llama3.2 Model",
   "config": {
     "model": "llama3.2:3b",
+    "api_key": "ollama",
+    "model_info": {
+      "vision": false,
+      "structured_output": true,
+      "function_calling": true,
+      "json_output": false,
+      "family": "unknown"
+    },
+    "base_url": "http://host.docker.internal:11434/v1"
+  }
+}
+```
+
+```json
+{
+  "provider": "autogen_ext.models.openai.OpenAIChatCompletionClient",
+  "component_type": "model",
+  "version": 1,
+  "component_version": 1,
+  "description": "Local Ollama Gemma3 model client per generazione avanzata.",
+  "label": "Gemma3 Model",
+  "config": {
+    "model": "llama3:4b",
+    "api_key": "ollama",
+    "model_info": {
+      "vision": false,
+      "structured_output": true,
+      "function_calling": true,
+      "json_output": false,
+      "family": "unknown"
+    },
+    "base_url": "http://host.docker.internal:11434/v1"
+  }
+}
+```
+
+```json
+{
+  "provider": "autogen_ext.models.openai.OpenAIChatCompletionClient",
+  "component_type": "model",
+  "version": 1,
+  "component_version": 1,
+  "description": "Local Ollama deepseek-r1 model client per generazione avanzata.",
+  "label": "DeepSeek-R1 Model",
+  "config": {
+    "model": "deepseek-r1:1.5b",
     "api_key": "ollama",
     "model_info": {
       "vision": false,
