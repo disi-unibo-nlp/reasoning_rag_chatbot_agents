@@ -2,7 +2,7 @@
 
 ## 📋 Panoramica
 
-In questa lezione analizziamo come creare e fare deployment di un chatbot LAM-based (Large Action Model) utilizzando AutoGen Studio e Ollama.
+Questa repository mostra come creare e fare deployment di un chatbot LAM-based (Large Action Model) utilizzando AutoGen Studio e Ollama.
 
 ## 🎯 Cosa Costruiremo
 
@@ -24,15 +24,9 @@ Ollama è il runtime che ci permetterà di eseguire modelli di AI in locale.
 - Scarica la versione per il tuo sistema operativo
 - Segui le istruzioni di installazione
 
-**Passo 2:** Avvia il servizio Ollama
+**Passo 2:** Scarica i modelli necessari
 ```bash
-# Apri un nuovo terminale e avvia Ollama in background
-ollama serve >/dev/null 2>&1 &
-```
-
-**Passo 3:** Scarica i modelli necessari
-```bash
-# Scarica il modello Qwen3 (leggero e veloce)
+# Scarica il modello Qwen3
 ollama pull qwen3:4b
 
 # Opzionale: scarica anche Llama3.2 per avere più opzioni
@@ -289,6 +283,4 @@ La pipeline Google LAM utilizza una struttura a più agenti specializzati:
 
 `Stefano Fantazzini` (stefano.fantazzini@unibo.it)
 
-
-
-contacts: lorenzo.molfetta@unibo.it
+contacts: name.surname@unibo.it
