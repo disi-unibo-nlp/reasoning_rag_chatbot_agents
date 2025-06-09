@@ -283,6 +283,12 @@ La pipeline Google LAM utilizza una struttura a più agenti specializzati:
 ---
 
 ## Author
-`Lorenzo Molfetta`
+`Lorenzo Molfetta` (lorenzo.molfetta@unibo.it)
+
+`Gianluca Moro` (gianluca.moro@unibo.it)
+
+`Stefano Fantazzini` (stefano.fantazzini@unibo.it)
+
+
 
 contacts: lorenzo.molfetta@unibo.it
