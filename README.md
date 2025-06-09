@@ -272,11 +272,15 @@ Team Builder → From Gallery → "Deep Research Team" (copy button - 'use as te
 ## Example
 Question: `How tall is the Eiffel Tower?`
 
-Let's  analyze the solving workflow of 
-![DeepResearch Solving Workflow](assets/lam_google_workflow_eiffel.pnf)
+Let's  analyze the solving workflow of the LAM pipelne.
+
+<img src="assets/lam_google_workflow_eiffel.png" alt="DeepResearch Solving Workflow" style="width:400px;"/>
+
 
 Here's a snippet of the generated answer.
-![DeepResearch LAM Answer](assets/answer_eiffel.png)
+
+![DeepResearch LAM Answer](assets/lam_google_answer_eiffel.png)
+
 
 ---
 
