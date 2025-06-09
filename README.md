@@ -188,7 +188,7 @@ Copia e incolla questa configurazione:
   "description": "Local Ollama Gemma3 model client per generazione avanzata.",
   "label": "Gemma3 Model",
   "config": {
-    "model": "llama3:4b",
+    "model": "gemma3:4b",
     "api_key": "ollama",
     "model_info": {
       "vision": false,
