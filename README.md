@@ -239,7 +239,7 @@ La pipeline Google LAM utilizza una struttura a più agenti specializzati:
 3. **Data Analysis:** L'Analysis Agent processa i risultati
 4. **Response Generation:** Il Summary Agent formula la risposta finale
 
-#### Passo 3: Configurazione Pratica
+#### Passo 3: Pseudo-Configurazione
 ```json
 {
   "name": "Google LAM Pipeline",
@@ -265,15 +265,12 @@ La pipeline Google LAM utilizza una struttura a più agenti specializzati:
 }
 ```
 
-#### 🎯 Vantaggi della Pipeline Google LAM
-- **🚀 Ricerca Intelligente:** Utilizza algoritmi avanzati per query ottimizzate
-- **🧠 Ragionamento Contestuale:** Comprende il contesto delle richieste
-- **📈 Scalabilità:** Gestisce query semplici e complesse
-- **🔄 Feedback Loop:** Migliora le risposte basandosi sui risultati precedenti
+Per inizializzare il pool di agenti:
+Team Builder → From Gallery → "Deep Research Team" (copy button - 'use as template')
 
 ---
 
-## 📚 Risorse Aggiuntive
+## 📚 References
 
 - 📖 [Documentazione AutoGen](https://github.com/microsoft/autogen)
 - 🐙 [Repository Ollama](https://github.com/ollama/ollama)
